@@ -12,6 +12,7 @@ html, body {
 body {
     background: white;
     height: 100vh;
+    height: 100dvh; /* Dynamic viewport height for mobile */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +29,15 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding: 0;
+        height: 100vh;
+        height: 100dvh; /* Dynamic viewport height for mobile */
+    }
+    
     .logo {
         transform: scale(0.8);
+        max-height: 100vh;
+        max-height: 100dvh; /* Dynamic viewport height for mobile */
     }
 }
