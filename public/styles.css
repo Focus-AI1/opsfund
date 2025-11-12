@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    max-width: 400px;
+    max-width: 520px;
     max-height: calc(100vh - 40px);
     width: 100%;
     height: auto;
